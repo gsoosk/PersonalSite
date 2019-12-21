@@ -17,7 +17,7 @@ class Page extends Component
         return(
             <div>
             <EnterTransition>
-                <Paper style={{width : '100%', opacity:'0.9'}} zDepth={1}  >
+                <Paper style={{width : '100%', opacity:'0.9', padding:'20px'}} zDepth={1}   >
                     <Login/>
                 </Paper>
 

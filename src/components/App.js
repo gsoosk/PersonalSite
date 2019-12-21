@@ -42,11 +42,11 @@ class Home extends Component {
             <Particles/>
             <Row>
                 <Col xs={12}>
-                    <AppNavBar />
+                    {/*<AppNavBar />*/}
                 </Col>
             </Row>
             <br/>
-            <Row>
+            <Row style={{minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
                 <Col xs={2}>
                     <div>
                         {/*LeftPanel*/}

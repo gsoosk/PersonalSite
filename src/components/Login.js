@@ -4,6 +4,7 @@ import Contact from './f_components/fContactBar';
 
 
 
+
 export class Login extends Component
 {
     constructor(props)
@@ -34,11 +35,21 @@ export class Login extends Component
 
         return(
             <div>
-                <div style={{textAlign :"center"}}>
-                    <Avatar src="avatar.jpg" size="20%" style={{marginLeft :'auto'}}/>
+                <div style={{textAlign :"center", fontFamily:'Lato'}}>
+                    <Avatar src="avatar.jpg" size="15%" style={{marginLeft :'auto', margin:'10px'}}/>
                 </div>
                 <div style={{textAlign : 'center'}}>
-                    <h2 style={{font:""}}>Farzad Habibi</h2>
+                    <h1 style={{fontFamily:"Lato", fontSize:"40px"}}>Farzad Habibi</h1>
+                </div>
+                <div>
+                    <p style={{textAlign:'center', margin:'20px', fontFamily:'Lato', fontSize:"17px"}}>
+                        My name is Farzad Habibi. I am a senior student at the
+                        <a href="https://ece.ut.ac.ir/en"> University of Tehran</a>, working on a BSc. Degree in Computer Engineering. My interests are mainly in Computer Networks, Operating Systems, Cyber-Physical Systems, and Distributed Systems. You can find further information about me on
+                        <a href='https://farzadhabibi.ir/mycv'> my cv</a>.
+                    </p>
+                    <p style={{textAlign:'center', margin:'20px', fontFamily:'Lato', fontSize:"15px"}}>
+                        Oh, I also love every kind of programming in all fields. :)
+                    </p>
                 </div>
                 <div style={{textAlign :"center"}}>
                     <div>
