@@ -29,6 +29,7 @@ function initTheme() {
 }
 
 let theme = initTheme();
+document.body.classList.add(theme);
 
 console.log('theme', theme)
 
