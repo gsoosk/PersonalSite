@@ -68,6 +68,9 @@ h1 {
     z-index: -100;
   }
    
+.body-background {
+    background-color: var(--par-bg);
+}
 
 .background {
     /* background-color: white; */
